@@ -4,4 +4,4 @@ description: A relentless interview to sharpen a plan or design, which also crea
 disable-model-invocation: true
 ---
 
-Call the Skill tool twice, for "grilling" and "domain-modeling".
+Load both the `grilling` and `domain-modeling` skills and run them together. Follow `grilling` exactly for the design tree, rounds, question format, and recommended answers. Use `domain-modeling` to sharpen terminology and update `GLOSSARY.md` inline; create ADRs only when its criteria are met. Follow its `GLOSSARY-FORMAT.md` and `ADR-FORMAT.md` references. Do not improvise a looser interview.
